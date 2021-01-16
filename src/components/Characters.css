@@ -1,0 +1,62 @@
+.Characters .container {
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    justify-content: space-between;
+}
+
+.Characters .title {
+    grid-column: span 4;
+}
+
+.Characters .character-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    box-shadow: 0.4rem 0.4rem 1.6rem rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.Characters .character-image img {
+    width: 100%;
+    height: auto;
+}
+
+.Characters .character-title {
+    font-size: 18px;
+}
+
+.Characters .favorite-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #5c7cfa;
+    color: white;
+    cursor: pointer;
+}
+
+.Characters .delete {
+    background-color: #fd4c4c;
+}
+
+.Characters .Search {
+    width: 100%;
+    grid-column: span 4;
+}
+
+.Characters .Search .search-character {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+    color: gray;
+    font-size: 18px;
+    padding: 10px 0px 10px 10px;
+    box-shadow: 0.4rem 0.4rem 1.6rem rgba(0, 0, 0, 0.25);
+}

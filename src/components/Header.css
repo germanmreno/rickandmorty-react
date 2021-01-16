@@ -1,0 +1,27 @@
+.Header {
+    width: 100%;
+}
+
+.Header > .container {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.Header button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 5%;
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+}
+
+.Header .btn-dark {
+    color: white;
+    border: 2px solid white;
+}
